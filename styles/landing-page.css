@@ -2,8 +2,8 @@
     display: flex;
 }
 .LandingPage__sidebar {
-    width: 30%;
+    width: 20%;
 }
 .LandingPage__body {
-    width: 70%;
+    width: 80%;
 }

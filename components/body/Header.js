@@ -19,7 +19,7 @@ const Header = () => {
                 <ListIcon className="header__right__icon" />
                 <NotificationsNoneIcon className="header__right__icon" />
                 <DialpadIcon className="header__right__icon" />
-                <Avatar src={"/face.png"} alt="Karan" />
+                <Avatar src={"/fourth.jpg"} alt="Karan" />
             </div>
         </div>
     )

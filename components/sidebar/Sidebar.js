@@ -15,7 +15,6 @@ const Sidebar = () => {
             <BarChartIcon style={{ fontSize: 40 }} />
             <div className="Sidebar__logo__title">CadenceIQ</div>
         </div>
-        <hr />
         <div className="Sidebar__components">
             <SidebarItem text="Home" Icon={HomeIcon} />
             <SidebarItem text="Tasks" Icon={FormatListBulletedIcon} />
@@ -25,6 +24,11 @@ const Sidebar = () => {
             <SidebarItem text="Phone" Icon={PhoneIcon} />
         </div>
         <hr className="Sidebar__hr" />
+        <br />
+        <SidebarItem text="Weekly Reviews" />
+        <SidebarItem text="Graph analysis" />
+        <SidebarItem text="Personal remarks" />
+        <SidebarItem text="Drafts" />
     </div>
 }
 export default Sidebar;
