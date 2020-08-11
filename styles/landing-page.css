@@ -1,0 +1,9 @@
+.LandingPage {
+    display: flex;
+}
+.LandingPage__sidebar {
+    width: 30%;
+}
+.LandingPage__body {
+    width: 70%;
+}
